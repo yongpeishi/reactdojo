@@ -1,0 +1,17 @@
+{
+  "name": "dojo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "entry.js",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-loader": "^6.2.4",
+    "webpack": "^1.12.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
