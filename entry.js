@@ -1,7 +1,12 @@
-const a = "hello";
+import React, { Component, PropTypes } from 'react';
+import { render } from 'react-dom';
 
-const arrow = (param) => {
-  return `param is ${param}`;
+class ColorPicker extends Component {
+  render() {
+    return (
+        <div> My Div</div>
+    );
+  }
 }
 
-console.log(arrow(a));
+render(<ColorPicker />, document.getElementById('target'));
